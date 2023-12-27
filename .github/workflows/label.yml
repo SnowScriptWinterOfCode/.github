@@ -1,0 +1,29 @@
+name: Assign Contribution Label
+
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  assign-contribution-label:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Assign Contribution Label
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issueNumber = context.payload.issue.number;
+
+            await github.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              labels: ['contribution'],
+            });
+
+        env:
+          GITHUB_TOKEN: ${{ secrets.SNOW }}
+
+
