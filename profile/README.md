@@ -26,9 +26,9 @@ Join us at GDSC IGDTUW SnowScript Winter of Code ❄️ to revolutionize the Ope
 - Please mention your full name on your GitHub handle to be eligible for prizes.
 
 
-
-Contribution period ends: 26th January 2024
-
+<hr> </hr>
+Contribution period ends: 28th January 2024 at 11.59PM IST
+<hr> </hr>
 
 ## ☃️ How to get started?
 
