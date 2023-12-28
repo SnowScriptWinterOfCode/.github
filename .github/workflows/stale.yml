@@ -20,7 +20,7 @@ jobs:
     steps:
     - uses: actions/stale@v5
       with:
-        repo-token: ${{ secrets.SNOW }}
+        repo-token: ${{ secrets.TOKEN }}
         stale-issue-message: 'We noticed that this Issue has been inactive for quite some time. 🥺'
         stale-pr-message: 'This PR has no activity, Maintainers and Reviewers we need help here 💖'
         stale-issue-label: 'inactive-issue'

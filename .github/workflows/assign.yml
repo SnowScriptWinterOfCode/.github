@@ -11,9 +11,18 @@ jobs:
 
     steps:
       - name: Assign Issue to Creator
-        uses: peter-evans/create-or-update-issue@v2
+        uses: actions/github-script@v7
         with:
-          issue: ${{ github.event.issue.number }}
-          assignees: ${{ github.event.issue.user.login }}
+          script: |
+            const issueNumber = context.payload.issue.number;
+            const creator = context.payload.issue.user.login;
+
+            await github.issues.addAssignees({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              assignees: [creator],
+            });
+
         env:
-          GITHUB_TOKEN: ${{ secrets.SNOW }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}

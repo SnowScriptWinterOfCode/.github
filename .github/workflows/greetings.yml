@@ -11,6 +11,6 @@ jobs:
     steps:
     - uses: actions/first-interaction@v1
       with:
-        repo-token: ${{ secrets.SNOW }}
-        issue-message: "Woohoo! Your first every issue has been created🎊🎊!!"
-        pr-message: "Perfection! Advancing through the open source world huh?🎊🎊 :)"
+        repo-token: ${{ secrets.TOKEN }}
+        issue-message: "Woohoo! Your first ever issue with us in this repository has been created🎊🎊!!"
+        pr-message: "Perfection! Advancing through the open source world!🎊🎊 :) Please be patient while our maintainers and reviewers check the code."
