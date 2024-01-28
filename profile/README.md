@@ -32,7 +32,7 @@ Contribution period ends: 28th January 2024 at 11.59PM IST
 
 ## ☃️ How to get started?
 
-You can refer to the following resources on Git and Github to get started and contact our Project Mentors via [Discord](https://discord.gg/xTNC4MGB) if you have any doubts.
+You can refer to the following resources on Git and Github to get started and contact our Project Mentors via [Discord](https://discord.com/invite/SzpZBPXPVA) if you have any doubts.
 
 - [Learn how to contribute to GDSC IGDTUW SnowScript Winter of Code Projects](#)
 - [Go through this repository to how to contribute learn step-by-step](https://github.com/firstcontributions/first-contributions)
@@ -64,5 +64,5 @@ Swag kits and lots of exciting goodies | Certificate of appreciation
 - Mention your pronouns in the profile to be eligible for the women only prizes.
 
 
-Join our [Discord](https://discord.gg/xTNC4MGB) to stay in touch with project mentors and for any furthur questions. 
+Join our [Discord](https://discord.com/invite/SzpZBPXPVA) to stay in touch with project mentors and for any furthur questions. 
 
